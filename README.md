@@ -9,16 +9,16 @@
 	int hiddenLayers[] = { 4,3 };
 	int countLayers = sizeof(hiddenLayers) / sizeof(*hiddenLayers);
   # create vector data for train
-  #file suitable :
-    a b c d e
-    0.3 0.2 0.1 0.6 0.4
-    0.1 0.1 0.1 0.3 0.1
-    0.2 0.1 0.0 0.3 0.3
-    0.1 0.0 0.0 0.1 0.1
-    0.1 0.2 0.2 0.5 0.1
-    0.4 0.0 0.1 0.5 0.3
-    0.0 0.3 0.2 0.5 0.1
-    0.2 0.3 0.4 0.9 0.1
+  # file suitable :
+    # a b c d e
+    # 0.3 0.2 0.1 0.6 0.4
+    # 0.1 0.1 0.1 0.3 0.1
+    # 0.2 0.1 0.0 0.3 0.3
+    # 0.1 0.0 0.0 0.1 0.1
+    # 0.1 0.2 0.2 0.5 0.1
+    # 0.4 0.0 0.1 0.5 0.3
+    # 0.0 0.3 0.2 0.5 0.1
+    # 0.2 0.3 0.4 0.9 0.1
 # a b c--input; d(a+b+c) e(a+b-c) -- output
 	vector<InputTrainParams*> inputTrain= ReaderParams::getParamsInputOutput("D:\\Development\\NNUnreal\\train.txt", inputCount, outputCount);
 
