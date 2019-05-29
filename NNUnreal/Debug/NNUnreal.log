@@ -1,0 +1,5 @@
+﻿  NNUnreal.cpp
+d:\development\nnunreal\nnunreal\nnunreal.cpp(24): warning C4305: инициализация: усечение из "double" в "float"
+  NeuralNetwork.cpp
+  Создание кода...
+  NNUnreal.vcxproj -> D:\Development\NNUnreal\Debug\NNUnreal.exe
