@@ -10,8 +10,8 @@
 	int countLayers = sizeof(hiddenLayers) / sizeof(*hiddenLayers);
   # create vector data for train
   # file suitable :
-    # a b c d e
-    # 0.3 0.2 0.1 0.6 0.4
+     a b c d e
+     0.3 0.2 0.1 0.6 0.4
     # 0.1 0.1 0.1 0.3 0.1
     # 0.2 0.1 0.0 0.3 0.3
     # 0.1 0.0 0.0 0.1 0.1
